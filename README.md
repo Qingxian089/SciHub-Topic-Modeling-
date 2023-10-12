@@ -21,4 +21,4 @@ This project consists of several Python Notebook (.ipynb) files and a visualisat
 ## Visualization Results
 
 In this project, we use HTML files for visualizing the final LDA results. These files are in the `visualization` directory. 
-http://htmlpreview.github.io/?https://github.com/Qingxian089/SciHub-Topic-Modeling-/blob/master/visualisation/index-2.html
+[The visualisation also can be previewed here](http://htmlpreview.github.io/?https://github.com/Qingxian089/SciHub-Topic-Modeling-/blob/master/visualisation/index-2.html)
