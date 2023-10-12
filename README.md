@@ -10,9 +10,9 @@ This project consists of several Python Notebook (.ipynb) files and a visualisat
 
 1. **Data Loading (Data Loading.ipynb)**: This file is responsible for loading the dataset, which is expected to be a collection of PDF documents compressed in ZIP files. The metadata and plain text content(including the title, DOI, creation time, subject, and content) are extracted from the PDFs using the Tika library.
 
-2. **Data Cleaning (data-cleaning.ipynb)**: This file cleans and preprocesses the extracted data.
+2. **Data Cleaning (data-cleaning.ipynb)**: This file cleans and preprocesses the extracted data SciHub PDFs. It removes the invalid data and imputes missing values.
 
-3. **Journal Match (Journal Match-final.ipynb)**: These file classifies each paper into its study area. The journal titles are matched against a table to get their ASJC classification codes, and these classification codes can be used to assign a subject area and sub-discipline to each paper.
+3. **Journal Match (Journal Match-final.ipynb)**: This file classifies each paper into its study area. The journal titles are matched against a table to get their ASJC classification codes, and these classification codes can be used to assign a subject area and sub-discipline to each paper.
 
 4. **LDA Visualization (ldavisual.ipynb)**: These files perform topic modeling using Latent Dirichlet Allocation (LDA) on the preprocessed text data, and visualize the modeling results.
 
